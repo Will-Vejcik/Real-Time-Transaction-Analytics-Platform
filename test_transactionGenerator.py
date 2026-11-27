@@ -5,6 +5,7 @@ from decimal import Decimal
 from transaction import Transaction
 from transactionGenerator import TransactionGenerator
 
+#Unit test for the TransactionGenerator class
 class TestTransactionGenerator(unittest.TestCase):
     def test_creates_correct_number_and_types_of_transactions(self):
         expected_count = 10
